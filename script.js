@@ -1,16 +1,19 @@
-
+//sets dice side images as veriable
 let img= ["Dice1.png","Dice2.png","Dice3.png",
 "Dice4.png","Dice5.png","Dice6.png"];
 
+//associates dice with img 
 let dice= document.querySelectorAll("img");
 
+//shake dice
 function rollTheDice() {
     dice.forEach(function(die){
         die.classList.add("shake");
     });
 
 
-
+    /* timeout for shake, picks random number between 1-6, 
+    associates that with dice side, and displays winner */
     setTimeout(function(){
         dice.forEach(function(die){
             die.classList.remove("shake");
@@ -38,6 +41,6 @@ function rollTheDice() {
                                     = (player1 + " WINS!");
         }
         
-    }, 1200 
+    }, 1200 //time for shake timeout
     );
 }
