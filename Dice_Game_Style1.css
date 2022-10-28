@@ -1,0 +1,152 @@
+@charset "utf-8";
+/*
+    Code Fellows skill test
+    Attempt to test out of 201 course
+
+    Roll Dice
+    Auther: Timothy Alden
+    Date: 10/25/2022
+
+    Filename: Dice_Game_Style1.css
+*/
+
+   /* nav bar */
+ul {
+    list-style-type: none;
+    margin-bottom: 20px;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(63, 63, 66, 0.432);
+    padding-left: 5px;
+}
+li {
+    float: left;
+}
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+li a:hover {
+    background-color: rgb(85, 58, 57);
+}
+  
+li a:visited {
+    background-color: rgba(121, 126, 123, 0.671);
+}
+
+/* HTML / body */
+header {
+    background: rgba(0, 0, 0, 0.473);
+}
+body {
+    background: url(Dicebground1.jpg) no-repeat center fixed;
+    -webkit-background-size: cover;
+    background-size: cover;
+    margin: 0;
+}
+  
+h1 {
+    margin: 0;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 3px 3px #9e9e9e3d;
+    font-size: 4.5rem;
+    color: #e3ecdcce;
+    text-align: left;
+    padding-left: 20px;
+}
+
+h2 {
+    margin: 30px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-shadow: 4px 0 #0225152d;
+    font-size: 4.5rem;
+    color: #d8be28ef;
+    text-align: center;
+}
+
+footer {
+    position: static;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 0.8em;
+    bottom: 2px;
+    width: 100%;
+    height: 80px;
+}
+
+/* lets play  */
+.container {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+/* player names */
+p {
+    text-align: center;
+    font-size: 2rem;
+    color: #e7eeebe8;
+    font-family:'Times New Roman', Times, serif;
+}
+
+/* the Game */
+.dice {
+    text-align: center;
+    display: inline-block;
+    margin: 10px;
+}
+  
+/* dice */
+img {
+    height: 100px;
+    width: 100px;
+    border-radius: 20px;
+}
+
+.shake {
+    animation: shake 0.4s infinite;
+}
+
+@keyframes shake{
+    0%{transform: rotate(30deg)}
+    25%{transform: rotate(-20deg)}
+    50%{transform: rotae(30deg)}
+    75%{transform: rotae(-20deg)}
+    100%{transform: rotae(20deg)}
+}
+
+/* buttons */
+.Bottom {
+    padding-top: 30px;
+}
+
+.button1 {
+    background: #0b6835ea;
+    font-family: "Indie Flower", cursive;
+    border-radius: 30px;
+    color: #ffff;
+    font-size: 30px;
+    padding: 16px 25px;
+    text-decoration: none;
+    width: 300px
+}
+
+.button2 {
+    background: #d6d6d6b4;
+    font-family: "Indie Flower", cursive;
+    color: #ffff;
+    font-size: 30px;
+    padding: 16px 25px;
+    text-decoration: none;
+    width: 300px;
+    border-radius: 30px;
+}
+  
+.button:hover {
+    background: #4d524bb4;
+    text-decoration: none;
+}

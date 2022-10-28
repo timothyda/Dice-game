@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+/*
+    Code Fellows skill test
+    Attempt to test out of 201 course
+
+    Dice Game
+    Auther: Timothy Alden
+    Date: 10/25/2022
+
+    Filename: Dice_Game.html
+*/
+
+  
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content=
+            "width=device-width, initial-scale=1.0">
+        <title>Dice Game</title>
+        <link href="Dice_Game_style1.css" rel="stylesheet" />
+    </head>
+
+    <body>
+        <header>
+            <h1>Dice Game</h1>
+                <ul>
+                    <li><a href="Dice_Game.html">Home</a></li>
+                    <li><a href="Roll_Dice_AbtUs.html">About Us</a></li>
+                    <li><a href="Dice_Game_Review.html">Review</a></li>
+                </ul>
+        </header>
+
+        <div class="container">
+            <h2>Let's Play</h2>
+            <div class="dice">
+                <p class="Player1">Player 1</p>
+                <img class="img1" src="Dice6.png">
+            </div>
+
+            <div class="dice">
+                <p class="Player2">Player 2</p>
+                <img class="img2" src="Dice3.png">
+            </div>
+        </div>
+
+        <div class="container Bottom">
+            <button type="button" class="button1"onClick="rollTheDice()">Roll Dice</button>
+            <script src="Dice_Game_JS_RD.js"></script>
+        </div>
+
+        <div class="container Bottom">
+            <button type="button" class="button2" onClick="editNames()">Edit Names</button>
+            <script src="Dice_Game_JS_PN.js"></script>
+        </div>
+
+        <footer>
+            <p>Timothy &ThickSpace; &diam; &ThickSpace; Date: 10/25/20222</p>
+        </footer>
+    </body>
+</html>

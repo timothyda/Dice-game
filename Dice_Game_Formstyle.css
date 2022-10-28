@@ -1,0 +1,93 @@
+@charset "utf-8";
+/*
+    Code Fellows skill test
+    Attempt to test out of 201 course
+
+    Roll Dice
+    Auther: Timothy Alden
+    Date: 10/25/2022
+
+    Filename: Dice_Game_Formstyle.css
+*/
+
+/* Form Layout Styles */
+form#survey {
+    display: -webkit-flex;
+    display: flex; 
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+}
+
+fieldset#expInfo, fieldset#custInfo {
+    background-color: rgb(0, 0, 0);
+    border-radius: 15px;
+    -webkit-flex: 1 1 300px;
+    flex: 1 1 300px;
+    font-size: 1.2em;
+    padding-left: 20px;
+}
+
+div.formRow {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    margin: 8px 8px;
+}
+
+div.formRow > * {
+    -webkit-flex: 1 1 150px;
+    flex: 1 1 150px;
+}
+
+/* Section title styles */
+legend {
+    background-color: rgba(38, 167, 59, 0.61); 
+    color: white;
+    padding: 5px;
+    border: 1.5px solid rgba(255, 251, 251, 0.384);
+    box-shadow: 1px 1px 2px 3px rgba(252, 250, 250, 0.151);
+    border-radius: 20px;
+}
+
+label  {
+    color: white;
+}
+
+/* Text area styles */
+textarea {
+    margin-top: 10px;
+    height: 100px;
+    width: 95%;
+}
+
+/* Number spinner Styles */
+div.formRow > input#playSpin {
+    -webkit-flex: 0 0 50px;
+    flex: 0 0 50px;
+    text-align: center;
+}
+
+/* Button Styles */
+div#buttons {
+    text-align: center;
+    width: 100%;
+    padding-bottom: 5px;
+}
+
+input[type='submit'], input[type='reset'] {
+    font-size: 1.2em;
+    padding: 5px;
+    margin: 15px;
+    color:rgb(203, 253, 201);
+    background-color:rgba(87, 224, 83, 0.459);
+}
+
+/* validate  Styles */
+input:focus, select:focus, textarea:focus {
+    background-color: rgb(182, 228, 182);
+}
+
+input#nam:focus:valid, input#zip:focus:valid, input#phone:focus:valid, input#mail:focus:valid {
+    background: rgb(182, 228, 182) url(rb_invalid.png) bottom right/contain no-repeat;
+}
