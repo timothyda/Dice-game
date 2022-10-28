@@ -11,7 +11,7 @@ function rollTheDice() {
         die.classList.add("shake");
 });
 
-
+//associates number with dice side and names winner
 setTimeout(function(){
     dice.forEach(function(die){
     die.classList.remove("shake");
