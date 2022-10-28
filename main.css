@@ -19,6 +19,7 @@ ul {
     background-color: rgba(63, 63, 66, 0.432);
     padding-left: 5px;
 }
+
 li {
     float: left;
 }
@@ -43,6 +44,7 @@ li a:visited {
 header {
     background: rgba(0, 0, 0, 0.473);
 }
+
 body {
     background: url(Dicebground1.jpg) no-repeat center fixed;
     -webkit-background-size: cover;
