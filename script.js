@@ -9,8 +9,8 @@ function rollTheDice() {
         die.classList.add("shake");
     });
 
-    /* setTimeout for shake, Picks random number between 1-6, and 
-    calls that number associated with the dice#.png */
+    // setTimeout for shake, Picks random number between 1-6, and 
+    //calls that number associated with the dice#.png 
     setTimeout(function(){
         dice.forEach(function(die){
             die.classList.remove("shake");
