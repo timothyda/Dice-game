@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", function(event) { 
+
 
     //sets dice side images as veriable
     let img= ["Dice1.png","Dice2.png","Dice3.png",
@@ -46,4 +46,3 @@ document.addEventListener("DOMContentLoaded", function(event) {
         }, 1200 //time for shake timeout
         );
     }
-});
