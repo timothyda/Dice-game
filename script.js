@@ -1,6 +1,7 @@
 // Calls images for side of dice
-let images= ["Dice1.png","Dice2.png","Dice3.png",
+let img= ["Dice1.png","Dice2.png","Dice3.png",
 "Dice4.png","Dice5.png","Dice6.png"];
+
 let dice= document.querySelectorAll("img");
 
 // Function starts to shake dice
@@ -39,6 +40,6 @@ function rollTheDice() {
                                     = (player1 + " WINS!");
         }
         
-    }, 1200 //time for setTimeout
+    }, 1200 //time for shake setTimeout
     );
 }
