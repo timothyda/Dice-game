@@ -10,6 +10,8 @@ function rollTheDice() {
     });
 
 
+
+
     setTimeout(function(){
         dice.forEach(function(die){
             die.classList.remove("shake");
@@ -23,6 +25,7 @@ function rollTheDice() {
         document.querySelector(".img2").setAttribute("src",
             "dice" + randomNumber2 + ".png");
         
+    
         if (randomNumber1 === randomNumber2) {
             document.querySelector("h2").innerHTML = "Draw!";
         }
