@@ -60,6 +60,8 @@ h1 {
     color: #e3ecdcce;
     text-align: left;
     padding-left: 20px;
+    border-width: 11px;
+    border: dashed blue;
 }
 
 h2 {
@@ -89,6 +91,14 @@ footer {
 
 /* player names */
 p {
+    text-align: center;
+    font-size: 2rem;
+    color: #e7eeebe8;
+    font-family:'Times New Roman', Times, serif;
+}
+
+article {
+    padding-bottom: 500px;
     text-align: center;
     font-size: 2rem;
     color: #e7eeebe8;

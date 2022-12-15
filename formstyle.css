@@ -81,6 +81,7 @@ input[type='submit'], input[type='reset'] {
     margin: 15px;
     color:rgb(203, 253, 201);
     background-color:rgba(87, 224, 83, 0.459);
+    border: solid 1.5px;
 }
 
 /* validate  Styles */
