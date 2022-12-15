@@ -1,4 +1,4 @@
-//sets dice side images as veriable
+//sets dice side image as veriable 
 let img= ["Dice1.png","Dice2.png","Dice3.png",
 "Dice4.png","Dice5.png","Dice6.png"];
 
